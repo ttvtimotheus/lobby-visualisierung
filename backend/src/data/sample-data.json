@@ -1,0 +1,420 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "politician",
+      "name": "Dr. Maria Schmidt",
+      "party": "CDU",
+      "position": "Bundestagsabgeordnete",
+      "score": 78,
+      "since": "2017",
+      "minister": "Wirtschaft und Energie (ehem.)",
+      "previous_employer": "Deutsche Bank AG",
+      "image": "https://randomuser.me/api/portraits/women/68.jpg"
+    },
+    {
+      "id": "p2",
+      "type": "politician",
+      "name": "Thomas Weber",
+      "party": "SPD",
+      "position": "Bundestagsabgeordneter",
+      "score": 45,
+      "since": "2013",
+      "minister": null,
+      "previous_employer": "IG Metall",
+      "image": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "id": "p3",
+      "type": "politician",
+      "name": "Julia Becker",
+      "party": "Grüne",
+      "position": "Bundestagsabgeordnete",
+      "score": 35,
+      "since": "2021",
+      "minister": null,
+      "previous_employer": "Umweltbundesamt",
+      "image": "https://randomuser.me/api/portraits/women/33.jpg"
+    },
+    {
+      "id": "p4",
+      "type": "politician",
+      "name": "Markus Hoffmann",
+      "party": "FDP",
+      "position": "Bundestagsabgeordneter",
+      "score": 62,
+      "since": "2017",
+      "minister": "Digitales und Verkehr",
+      "previous_employer": "McKinsey & Company",
+      "image": "https://randomuser.me/api/portraits/men/45.jpg"
+    },
+    {
+      "id": "p5",
+      "type": "politician",
+      "name": "Sabine Müller",
+      "party": "Die Linke",
+      "position": "Bundestagsabgeordnete",
+      "score": 28,
+      "since": "2017",
+      "minister": null,
+      "previous_employer": "Ver.di",
+      "image": "https://randomuser.me/api/portraits/women/22.jpg"
+    },
+    {
+      "id": "c1",
+      "type": "company",
+      "name": "Deutsche Bank AG",
+      "industry": "Finanzwesen",
+      "score": 85,
+      "founded": "1870",
+      "revenue": "24,8 Mrd. EUR (2022)",
+      "employees": "84.930",
+      "website": "https://www.db.com",
+      "image": "https://logo.clearbit.com/db.com"
+    },
+    {
+      "id": "c2",
+      "type": "company",
+      "name": "Volkswagen AG",
+      "industry": "Automobilindustrie",
+      "score": 92,
+      "founded": "1937",
+      "revenue": "279,2 Mrd. EUR (2022)",
+      "employees": "675.805",
+      "website": "https://www.volkswagen.de",
+      "image": "https://logo.clearbit.com/volkswagen.de"
+    },
+    {
+      "id": "c3",
+      "type": "company",
+      "name": "Siemens AG",
+      "industry": "Elektronik & Maschinenbau",
+      "score": 88,
+      "founded": "1847",
+      "revenue": "72 Mrd. EUR (2022)",
+      "employees": "311.000",
+      "website": "https://www.siemens.com",
+      "image": "https://logo.clearbit.com/siemens.com"
+    },
+    {
+      "id": "c4",
+      "type": "company",
+      "name": "RWE AG",
+      "industry": "Energieversorgung",
+      "score": 76,
+      "founded": "1898",
+      "revenue": "24,8 Mrd. EUR (2022)",
+      "employees": "18.310",
+      "website": "https://www.rwe.com",
+      "image": "https://logo.clearbit.com/rwe.com"
+    },
+    {
+      "id": "c5",
+      "type": "company",
+      "name": "Deutsche Telekom AG",
+      "industry": "Telekommunikation",
+      "score": 79,
+      "founded": "1995",
+      "revenue": "114,4 Mrd. EUR (2022)",
+      "employees": "207.000",
+      "website": "https://www.telekom.de",
+      "image": "https://logo.clearbit.com/telekom.de"
+    },
+    {
+      "id": "a1",
+      "type": "association",
+      "name": "BDI - Bundesverband der Deutschen Industrie",
+      "industry": "Industrievertretung",
+      "score": 95,
+      "founded": "1949",
+      "members": "35 Branchenverbände",
+      "website": "https://www.bdi.eu",
+      "image": "https://logo.clearbit.com/bdi.eu"
+    },
+    {
+      "id": "a2",
+      "type": "association",
+      "name": "DIHK - Deutscher Industrie- und Handelskammertag",
+      "industry": "Wirtschaftsvertretung",
+      "score": 87,
+      "founded": "1861",
+      "members": "79 IHKs",
+      "website": "https://www.dihk.de",
+      "image": "https://logo.clearbit.com/dihk.de"
+    },
+    {
+      "id": "a3",
+      "type": "association",
+      "name": "VDA - Verband der Automobilindustrie",
+      "industry": "Automobilindustrie",
+      "score": 89,
+      "founded": "1901",
+      "members": "ca. 600 Unternehmen",
+      "website": "https://www.vda.de",
+      "image": "https://logo.clearbit.com/vda.de"
+    },
+    {
+      "id": "t1",
+      "type": "thinktank",
+      "name": "Konrad-Adenauer-Stiftung",
+      "political_orientation": "konservativ",
+      "score": 72,
+      "founded": "1955",
+      "website": "https://www.kas.de",
+      "image": "https://logo.clearbit.com/kas.de"
+    },
+    {
+      "id": "t2",
+      "type": "thinktank",
+      "name": "Friedrich-Ebert-Stiftung",
+      "political_orientation": "sozialdemokratisch",
+      "score": 68,
+      "founded": "1925",
+      "website": "https://www.fes.de",
+      "image": "https://logo.clearbit.com/fes.de"
+    },
+    {
+      "id": "t3",
+      "type": "thinktank",
+      "name": "ifo Institut",
+      "political_orientation": "wirtschaftsliberal",
+      "score": 75,
+      "founded": "1949",
+      "website": "https://www.ifo.de",
+      "image": "https://logo.clearbit.com/ifo.de"
+    },
+    {
+      "id": "m1",
+      "type": "ministry",
+      "name": "Bundesministerium für Wirtschaft und Klimaschutz",
+      "score": 90,
+      "website": "https://www.bmwk.de",
+      "image": "https://logo.clearbit.com/bmwk.de"
+    },
+    {
+      "id": "m2",
+      "type": "ministry",
+      "name": "Bundesministerium der Finanzen",
+      "score": 88,
+      "website": "https://www.bundesfinanzministerium.de",
+      "image": "https://logo.clearbit.com/bundesfinanzministerium.de"
+    },
+    {
+      "id": "m3",
+      "type": "ministry",
+      "name": "Bundesministerium für Digitales und Verkehr",
+      "score": 82,
+      "website": "https://www.bmdv.bund.de",
+      "image": "https://logo.clearbit.com/bmdv.bund.de"
+    }
+  ],
+  "links": [
+    {
+      "source": "p1",
+      "target": "c1",
+      "type": "employment",
+      "description": "Ehemaliges Vorstandsmitglied",
+      "since": "2010",
+      "until": "2017"
+    },
+    {
+      "source": "p1",
+      "target": "m1",
+      "type": "employment",
+      "description": "Ehemalige Ministerin",
+      "since": "2018",
+      "until": "2021"
+    },
+    {
+      "source": "p1",
+      "target": "a1",
+      "type": "cooperation",
+      "description": "Regelmäßige Teilnahme an Veranstaltungen",
+      "since": "2017"
+    },
+    {
+      "source": "p2",
+      "target": "c2",
+      "type": "cooperation",
+      "description": "Mitglied im Aufsichtsrat",
+      "since": "2015"
+    },
+    {
+      "source": "p2",
+      "target": "t2",
+      "type": "cooperation",
+      "description": "Kuratoriumsmitglied",
+      "since": "2014"
+    },
+    {
+      "source": "p3",
+      "target": "a3",
+      "type": "cooperation",
+      "description": "Beraterin für Nachhaltigkeitsfragen",
+      "since": "2020",
+      "until": "2021"
+    },
+    {
+      "source": "p4",
+      "target": "m3",
+      "type": "employment",
+      "description": "Minister",
+      "since": "2021"
+    },
+    {
+      "source": "p4",
+      "target": "c5",
+      "type": "cooperation",
+      "description": "Ehemaliger Berater",
+      "since": "2015",
+      "until": "2017"
+    },
+    {
+      "source": "p5",
+      "target": "t3",
+      "type": "cooperation",
+      "description": "Kritische Zusammenarbeit in Arbeitsgruppen",
+      "since": "2019"
+    },
+    {
+      "source": "c1",
+      "target": "a1",
+      "type": "membership",
+      "description": "Mitglied",
+      "since": "1950"
+    },
+    {
+      "source": "c2",
+      "target": "a1",
+      "type": "membership",
+      "description": "Mitglied",
+      "since": "1950"
+    },
+    {
+      "source": "c2",
+      "target": "a3",
+      "type": "membership",
+      "description": "Gründungsmitglied",
+      "since": "1901"
+    },
+    {
+      "source": "c3",
+      "target": "a1",
+      "type": "membership",
+      "description": "Mitglied",
+      "since": "1950"
+    },
+    {
+      "source": "c3",
+      "target": "a2",
+      "type": "membership",
+      "description": "Mitglied",
+      "since": "1950"
+    },
+    {
+      "source": "c4",
+      "target": "a1",
+      "type": "membership",
+      "description": "Mitglied",
+      "since": "1950"
+    },
+    {
+      "source": "c5",
+      "target": "a1",
+      "type": "membership",
+      "description": "Mitglied",
+      "since": "1995"
+    },
+    {
+      "source": "c5",
+      "target": "a2",
+      "type": "membership",
+      "description": "Mitglied",
+      "since": "1995"
+    },
+    {
+      "source": "t1",
+      "target": "p1",
+      "type": "cooperation",
+      "description": "Regelmäßige Vorträge",
+      "since": "2018"
+    },
+    {
+      "source": "t2",
+      "target": "p2",
+      "type": "cooperation",
+      "description": "Publikationen und Veranstaltungen",
+      "since": "2014"
+    },
+    {
+      "source": "t3",
+      "target": "c1",
+      "type": "cooperation",
+      "description": "Forschungskooperation",
+      "since": "2010"
+    },
+    {
+      "source": "t3",
+      "target": "c3",
+      "type": "cooperation",
+      "description": "Forschungskooperation",
+      "since": "2015"
+    },
+    {
+      "source": "m1",
+      "target": "a1",
+      "type": "cooperation",
+      "description": "Regelmäßige Konsultationen",
+      "since": "1950"
+    },
+    {
+      "source": "m2",
+      "target": "c1",
+      "type": "cooperation",
+      "description": "Regelmäßige Konsultationen",
+      "since": "1950"
+    },
+    {
+      "source": "m3",
+      "target": "c2",
+      "type": "cooperation",
+      "description": "Zusammenarbeit bei Infrastrukturprojekten",
+      "since": "2021"
+    },
+    {
+      "source": "m3",
+      "target": "c5",
+      "type": "cooperation",
+      "description": "Zusammenarbeit bei Digitalisierungsprojekten",
+      "since": "2021"
+    },
+    {
+      "source": "a1",
+      "target": "a2",
+      "type": "cooperation",
+      "description": "Strategische Partnerschaft",
+      "since": "1950"
+    },
+    {
+      "source": "a1",
+      "target": "a3",
+      "type": "cooperation",
+      "description": "Zusammenarbeit in Industriefragen",
+      "since": "1950"
+    },
+    {
+      "source": "c1",
+      "target": "c3",
+      "type": "cooperation",
+      "description": "Finanzierungspartnerschaft",
+      "since": "1980"
+    },
+    {
+      "source": "c2",
+      "target": "c4",
+      "type": "cooperation",
+      "description": "Energielieferverträge",
+      "since": "2000"
+    }
+  ]
+}

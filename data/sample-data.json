@@ -1,0 +1,249 @@
+{
+  "nodes": [
+    {
+      "id": "person_001",
+      "type": "politician",
+      "name": "Max Mustermann",
+      "party": "CDU",
+      "position": "Abgeordneter im Bundestag",
+      "since": "2017",
+      "previous_employer": "BASF",
+      "score": 78,
+      "image": "/img/max.jpg"
+    },
+    {
+      "id": "person_002",
+      "type": "politician",
+      "name": "Anna Schmidt",
+      "party": "SPD",
+      "position": "Staatssekretärin im Wirtschaftsministerium",
+      "since": "2019",
+      "previous_employer": "Deutscher Gewerkschaftsbund",
+      "score": 65,
+      "image": "/img/anna.jpg"
+    },
+    {
+      "id": "person_003",
+      "type": "politician",
+      "name": "Thomas Weber",
+      "party": "FDP",
+      "position": "Abgeordneter im Bundestag",
+      "since": "2021",
+      "previous_employer": "Deutsche Bank",
+      "score": 42,
+      "image": "/img/thomas.jpg"
+    },
+    {
+      "id": "person_004",
+      "type": "politician",
+      "name": "Julia Meyer",
+      "party": "Grüne",
+      "position": "Abgeordnete im Bundestag",
+      "since": "2017",
+      "previous_employer": "Greenpeace",
+      "score": 56,
+      "image": "/img/julia.jpg"
+    },
+    {
+      "id": "person_005",
+      "type": "lobbyist",
+      "name": "Klaus Berger",
+      "position": "Leiter Public Affairs",
+      "employer": "Volkswagen AG",
+      "since": "2015",
+      "previous_employer": "Bundesverkehrsministerium",
+      "score": 82,
+      "image": "/img/klaus.jpg"
+    },
+    {
+      "id": "org_001",
+      "type": "company",
+      "name": "BASF",
+      "industry": "Chemie",
+      "website": "https://www.basf.com",
+      "revenue": "59.2 Mrd. €",
+      "employees": "111.000"
+    },
+    {
+      "id": "org_002",
+      "type": "company",
+      "name": "Volkswagen AG",
+      "industry": "Automobil",
+      "website": "https://www.volkswagen.de",
+      "revenue": "250.2 Mrd. €",
+      "employees": "662.600"
+    },
+    {
+      "id": "org_003",
+      "type": "company",
+      "name": "Deutsche Bank",
+      "industry": "Finanzen",
+      "website": "https://www.deutsche-bank.de",
+      "revenue": "27.4 Mrd. €",
+      "employees": "84.930"
+    },
+    {
+      "id": "org_004",
+      "type": "association",
+      "name": "Bundesverband der Deutschen Industrie",
+      "industry": "Wirtschaftsverband",
+      "website": "https://www.bdi.eu",
+      "members": "35 Branchenverbände"
+    },
+    {
+      "id": "org_005",
+      "type": "association",
+      "name": "Deutscher Gewerkschaftsbund",
+      "industry": "Gewerkschaft",
+      "website": "https://www.dgb.de",
+      "members": "5.7 Millionen"
+    },
+    {
+      "id": "org_006",
+      "type": "thinktank",
+      "name": "Konrad-Adenauer-Stiftung",
+      "political_orientation": "konservativ",
+      "website": "https://www.kas.de",
+      "founded": "1955"
+    },
+    {
+      "id": "org_007",
+      "type": "thinktank",
+      "name": "Friedrich-Ebert-Stiftung",
+      "political_orientation": "sozialdemokratisch",
+      "website": "https://www.fes.de",
+      "founded": "1925"
+    },
+    {
+      "id": "gov_001",
+      "type": "government",
+      "name": "Bundeswirtschaftsministerium",
+      "minister": "Robert Habeck",
+      "party": "Grüne",
+      "budget": "10.1 Mrd. €"
+    },
+    {
+      "id": "gov_002",
+      "type": "government",
+      "name": "Bundesverkehrsministerium",
+      "minister": "Volker Wissing",
+      "party": "FDP",
+      "budget": "36.2 Mrd. €"
+    }
+  ],
+  "links": [
+    {
+      "source": "person_001",
+      "target": "org_001",
+      "type": "former_employment",
+      "description": "War bis 2016 dort tätig",
+      "since": "2010",
+      "until": "2016"
+    },
+    {
+      "source": "person_001",
+      "target": "org_004",
+      "type": "membership",
+      "description": "Mitglied im Beirat",
+      "since": "2018"
+    },
+    {
+      "source": "person_002",
+      "target": "org_005",
+      "type": "former_employment",
+      "description": "War bis 2019 dort tätig",
+      "since": "2012",
+      "until": "2019"
+    },
+    {
+      "source": "person_002",
+      "target": "gov_001",
+      "type": "employment",
+      "description": "Aktuelle Position",
+      "since": "2019"
+    },
+    {
+      "source": "person_003",
+      "target": "org_003",
+      "type": "former_employment",
+      "description": "War bis 2020 dort tätig",
+      "since": "2015",
+      "until": "2020"
+    },
+    {
+      "source": "person_003",
+      "target": "org_004",
+      "type": "meeting",
+      "description": "Regelmäßige Treffen",
+      "frequency": "monatlich",
+      "since": "2021"
+    },
+    {
+      "source": "person_004",
+      "target": "gov_001",
+      "type": "committee",
+      "description": "Mitglied im Wirtschaftsausschuss",
+      "since": "2017"
+    },
+    {
+      "source": "person_005",
+      "target": "org_002",
+      "type": "employment",
+      "description": "Aktuelle Position",
+      "since": "2015"
+    },
+    {
+      "source": "person_005",
+      "target": "gov_002",
+      "type": "former_employment",
+      "description": "War dort bis 2015 tätig",
+      "since": "2008",
+      "until": "2015"
+    },
+    {
+      "source": "person_005",
+      "target": "person_001",
+      "type": "meeting",
+      "description": "Regelmäßige Treffen",
+      "frequency": "vierteljährlich",
+      "since": "2017"
+    },
+    {
+      "source": "org_001",
+      "target": "org_004",
+      "type": "membership",
+      "description": "Mitglied im Verband",
+      "since": "1950"
+    },
+    {
+      "source": "org_002",
+      "target": "org_004",
+      "type": "membership",
+      "description": "Mitglied im Verband",
+      "since": "1950"
+    },
+    {
+      "source": "org_003",
+      "target": "org_004",
+      "type": "membership",
+      "description": "Mitglied im Verband",
+      "since": "1950"
+    },
+    {
+      "source": "org_006",
+      "target": "person_001",
+      "type": "support",
+      "description": "Finanzielle Unterstützung",
+      "amount": "5.000 €",
+      "year": "2020"
+    },
+    {
+      "source": "org_007",
+      "target": "person_002",
+      "type": "support",
+      "description": "Finanzielle Unterstützung",
+      "amount": "3.500 €",
+      "year": "2019"
+    }
+  ]
+}
